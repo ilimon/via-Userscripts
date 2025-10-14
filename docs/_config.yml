@@ -18,8 +18,8 @@ preferences:
 title: "Via Browser Hub"
 heading: "Noushad"
 description: "Curated Userscripts & Filterlists for Via Browser — fast, private, and optimized."
-url: "https://limon.github.io"
-baseurl: "/via-Userscripts"   # adjust if your repo name is different
+url: "https://noushad.qzz.io"   # your custom domain
+baseurl: ""                     # empty since site is served at root of domain
 
 # Asset Configuration
 apple_touch_icon: "/assets/img/profile.png"
@@ -30,7 +30,7 @@ ie_css: "/assets/css/ie-target.css"
 menu:
   - title: "Userscripts"
     url: "/Userscripts"
-  - title: "Filters"
+  - title: "Filterlists"
     url: "/Filters"
   - title: "About"
     url: "/about"
@@ -71,6 +71,7 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag   # adds SEO/meta tags for better sharing
 
 # Private links (for broken wiki links)
 privatelinks:
