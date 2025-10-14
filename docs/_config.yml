@@ -1,9 +1,91 @@
-title: "Via Browser Hub"
-description: "Userscripts & Filterlists for Via Browser"
-url: "https://limon.github.io"
-baseurl: "/via-Userscripts"   # change if your repo name is different
-remote_theme: jekyll-garden/jekyll-garden.github.io
+# Jekyll Garden Configuration
+# Optimized for actual template usage
 
+# Preferences (controls template behavior)
+preferences:
+  homepage:
+    enabled: true
+  search:
+    enabled: true
+  backlinks:
+    enabled: true
+  pagepreview:
+    enabled: true
+  wiki_style_link:
+    enabled: true
+
+# Site Configuration
+title: "Via Browser Hub"
+heading: "Noushad"
+description: "Curated Userscripts & Filterlists for Via Browser — fast, private, and optimized."
+url: "https://limon.github.io"
+baseurl: "/via-Userscripts"   # adjust if your repo name is different
+
+# Asset Configuration
+apple_touch_icon: "/assets/img/profile.png"
+css_file: "/assets/css/style.css"
+ie_css: "/assets/css/ie-target.css"
+
+# Menu Items
+menu:
+  - title: "Userscripts"
+    url: "/Userscripts"
+  - title: "Filters"
+    url: "/Filters"
+  - title: "About"
+    url: "/about"
+
+# Footer
+footer:
+  copyright: "© 2025 Noushad"
+  credits:
+    enabled: true
+    url: "/credits"
+    text: "Built with Jekyll Garden"
+
+# Collections
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "Post"
+      content-type: "notes"
+      feed: "show"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "Post"
+      content-type: "post"
+      feed: "show"
+      permalink: /blog/:title/
+
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Private links (for broken wiki links)
+privatelinks:
+  title: "Private Note"
+  msg: "This note hasn't been published yet."
+
+# Math rendering
+katex: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
