@@ -1,0 +1,14 @@
+title: "Via Browser Hub"
+description: "Clean, modern hub for Userscripts & Filterlists"
+theme: minima
+
+# Minima theme settings
+minima:
+  skin: auto   # auto = light/dark mode based on system
+  social_links:
+    github: ilimon/via-Userscripts
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
