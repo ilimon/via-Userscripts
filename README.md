@@ -1,5 +1,8 @@
 # 🌐 Via Browser Userscripts
 
+![Made for Via Browser](https://img.shields.io/badge/Made%20for-Via%20Browser-9cf?style=for-the-badge&logo=android)
+[![License](https://img.shields.io/github/license/ilimon/via-Userscripts?style=for-the-badge&color=green)](./LICENSE)
+
 A curated collection of powerful **userscripts for [Via Browser](https://viayoo.com/)** on Android.  
 Boost your browsing with **ad‑blocking, privacy protection, performance tweaks, and dark mode** — all installable in **one click**.
 
