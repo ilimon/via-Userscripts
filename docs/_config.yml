@@ -1,32 +1,13 @@
-# Jekyll Garden Configuration
-# Optimized for actual template usage
-
-# Preferences (controls template behavior)
-preferences:
-  homepage:
-    enabled: true
-  search:
-    enabled: true
-  backlinks:
-    enabled: true
-  pagepreview:
-    enabled: true
-  wiki_style_link:
-    enabled: true
-
-# Site Configuration
+# Site settings
 title: "Via Browser Hub"
-heading: "Noushad"
 description: "Curated Userscripts & Filterlists for Via Browser — fast, private, and optimized."
 url: "https://noushad.qzz.io"   # your custom domain
-baseurl: ""                     # empty since site is served at root of domain
+baseurl: ""                     # empty since site is at root of domain
 
-# Asset Configuration
-apple_touch_icon: "/assets/img/profile.png"
-css_file: "/assets/css/style.css"
-ie_css: "/assets/css/ie-target.css"
+# Theme (official GitHub Pages theme)
+theme: jekyll-theme-slate
 
-# Menu Items
+# Menu (manual links in header/footer if needed)
 menu:
   - title: "Userscripts"
     url: "/Userscripts"
@@ -40,53 +21,17 @@ footer:
   copyright: "© 2025 Noushad"
   credits:
     enabled: true
-    url: "/credits"
-    text: "Built with Jekyll Garden"
+    text: "Powered by GitHub Pages"
 
-# Collections
-collections:
-  notes:
-    output: true
-    permalink: /:collection/:name
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "notes"
-    values:
-      layout: "Post"
-      content-type: "notes"
-      feed: "show"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "Post"
-      content-type: "post"
-      feed: "show"
-      permalink: /blog/:title/
-
-# Plugins
+# Plugins (all supported by GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag   # adds SEO/meta tags for better sharing
-
-# Private links (for broken wiki links)
-privatelinks:
-  title: "Private Note"
-  msg: "This note hasn't been published yet."
-
-# Math rendering
-katex: true
+  - jekyll-seo-tag
 
 # Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
