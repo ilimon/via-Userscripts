@@ -61,3 +61,9 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 ## ⭐ Support
 If you find these scripts useful, consider giving the repo a **star** ⭐ on GitHub — it helps others discover it!
+
+---
+
+<p align="center">
+Made with ❤️ for <b>Via Browser</b> users by <a href="https://github.com/ilimon">ilimon</a>  
+</p>
