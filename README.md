@@ -44,6 +44,15 @@ Boost your browsing with **ad‑blocking, privacy protection, performance tweaks
 
 ---
 
+## 🛡️ Filter Subscriptions
+
+In addition to custom userscripts, this repository also curates a collection of **popular adblock filterlists** from around the web.  
+These lists are maintained by their original authors and always update automatically.
+
+👉 See the full list here: [Curated Filter Subscriptions](./Filterlist/Filterlist.md)
+
+---
+
 ## 🤝 Contributing
 Contributions are welcome!  
 - Fork the repo  
