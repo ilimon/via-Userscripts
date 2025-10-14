@@ -1,14 +1,9 @@
 title: "Via Browser Hub"
-description: "Clean, modern hub for Userscripts & Filterlists"
-theme: minima
+description: "Userscripts & Filterlists for Via Browser"
+url: "https://limon.github.io"
+baseurl: "/via-Userscripts"   # change if your repo name is different
+remote_theme: jekyll-garden/jekyll-garden.github.io
 
-# Minima theme settings
-minima:
-  skin: auto   # auto = light/dark mode based on system
-  social_links:
-    github: ilimon/via-Userscripts
-
-markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
